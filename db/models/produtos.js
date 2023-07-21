@@ -1,6 +1,6 @@
 'use strict';
 const { Sequelize, Model, DataTypes } = require('sequelize');
-const listaJson = require('../../../listProdutos.json');
+//const listaJson = require('../../../listProdutos.json');
 //const carShop = require('./carShop');
 
 

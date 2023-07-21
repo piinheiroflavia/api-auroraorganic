@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "/": "/app.js",
+            "src": "./app.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-            "db": "(.*)",
-            "dest": "controllers/productController.js"
+            "src": "/(.*)",
+            "dest": "/"
         }
     ]
 }
