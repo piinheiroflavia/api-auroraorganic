@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "vercel-build": "npx db migrate deploy"
+    "dev": "nodemon app.js"
+    
   },
   "author": "",
   "license": "ISC",
